@@ -68,4 +68,3 @@ The original code enforces inference ≤120 seconds and training-plus-inference 
 - Model states are kept in memory rather than written as checkpoints. Restarting the kernel requires retraining.
 - Competition images, prediction CSVs and pretrained/model weights are excluded from this repository.
 
-This is a **CHIMIN PRIME team course project**, archived as part of Vladimir Garanin's portfolio. AI assistance was used in the coursework and repository preparation. The canonical implementation comes from `final_solution.ipynb`; the only executable change is adding the missing `Subset` import for the optional small-test-loader branch. Documentation, section headings, metadata cleanup and the script export were added during packaging. [Implementation provenance](reports/provenance.json) records source hashes and the exact scope of changes.
