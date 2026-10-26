@@ -1,0 +1,9 @@
+# Dependency list, not a recovered historical environment lock.
+# Install a CUDA-compatible PyTorch build and its matching torchvision.
+torch
+torchvision
+numpy
+pandas
+Pillow
+# Used only by notebooks/timed_retrain.ipynb for optional data download.
+kagglehub
