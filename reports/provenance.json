@@ -1,0 +1,47 @@
+{
+  "competition": {
+    "name": "Week 5: Geo Satellites Classification",
+    "url": "https://www.kaggle.com/competitions/week-5-competition-geo-satellites-classification"
+  },
+  "source_files": {
+    "canonical": "final_solution.ipynb",
+    "timing_variant": "week5_KAGGLE_FULL_RETRAIN_TIMED_FIXED.ipynb"
+  },
+  "source_sha256": {
+    "original_file": "adfb824bd3b7a8d101935d075be70c83b9110614c313b82bb7af1121e2d0bb02",
+    "original_executable_code": "86e2dbde564b93edeb04bb4b2980bde532735fec3516f44af62830cc24820da4",
+    "published_executable_code": "d35b0531c8ea3935cce71de3fc2c40dc6b8ce1a7fbc1a25dd5150d23cb24970e",
+    "original_timing_file": "27c2dd2c7c50c0a4e2d7ef03d2f973ca1a162a80a19b91ce64e489b5fc2e3531"
+  },
+  "repository_changes": [
+    "Added the missing Subset import; model, hyperparameters, training and inference logic preserved.",
+    "Added documentation, script export, notebook section headings and file exclusions.",
+    "Cleared outputs and editor metadata; did not invent execution outputs."
+  ],
+  "validation_status": {
+    "full_two_gpu_training_repeated": false,
+    "full_test_inference_repeated": false,
+    "source_has_saved_outputs": false
+  },
+  "weights": {
+    "R42": 0.153,
+    "R1337": 0.357,
+    "INC": 0.34,
+    "VGG": 0.15
+  },
+  "rotation_views": {
+    "R42": 2,
+    "R1337": 4,
+    "INC": 4,
+    "VGG": 1
+  },
+  "hardware_requirement": "Two CUDA GPUs; original target was Kaggle T4 x2.",
+  "environment_versions": "No historical package-version lock was present in either final notebook.",
+  "repository_preparation_checks": {
+    "syntax_and_notebook_structure": "passed",
+    "executable_equivalence": "passed: only Subset import added",
+    "cpu_smoke": "passed: original learning-rate function and final submission cell on synthetic probabilities/IDs",
+    "torch_or_torchvision_installed_in_preparation_environment": false,
+    "full_gpu_pipeline_tested": false
+  }
+}

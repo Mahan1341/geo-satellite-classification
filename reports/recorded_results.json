@@ -1,0 +1,29 @@
+{
+  "competition": "Week 5: Geo Satellites Classification",
+  "team": "CHIMIN PRIME",
+  "historical_public_accuracy": {
+    "value": 0.96230,
+    "status": "reported_in_original_experiment_notes",
+    "source": "week5_FINAL4_R42_R1337_INC_VGG_GRID.ipynb, introductory markdown cell",
+    "source_recorded_at": "2026-10-10T08:12:18.793684Z",
+    "reported_weights": {
+      "R42": 0.153,
+      "R1337": 0.357,
+      "INC": 0.340,
+      "VGG": 0.150
+    },
+    "independently_verified_against_final_leaderboard": false,
+    "reproduced_during_repository_preparation": false,
+    "published_notebook_to_historical_submission_equivalence_verified": false
+  },
+  "final_private_score": null,
+  "final_rank": null,
+  "measured_runtime_from_verified_execution_log": null,
+  "source_final_notebooks_have_saved_outputs": false,
+  "notes": [
+    "The reported public score belongs to the recorded four-model ensemble weights; it is not a new measurement of this repository.",
+    "No final leaderboard rank is claimed from a partial competition snapshot.",
+    "Training top1 printed by the final refit is not held-out validation accuracy.",
+    "The executable runtime limits are checks, not evidence that a particular run met those limits."
+  ]
+}
